@@ -1,0 +1,240 @@
+#header{
+    padding: 10px; 
+    margin:0 auto;
+    width: 900px;
+    list-style-type: none;
+    background-color: cornsilk;
+/*    opacity: 0.7;*/
+/*     border: 2px solid ;
+    border-radius: 20px 2px ; */
+    border: 2px solid #FFDAB9;   
+    border-radius: 20px 20px 0 0;
+
+    text-align: center;
+}
+#header a {
+        color: #FA8072;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        width: 100px;
+      }
+#header a:hover {
+        border-radius: 20px 20px 2-px 20px;
+        background-color: #FAFAD2;
+      }
+#header li {
+    display: inline;
+}
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+}
+.background{
+    width: 100%;
+    height:100%;
+    background : url(img/background/1614625539_41-p-fon-serdtse-dlya-fotoshopa-56.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.Heading{
+    padding: 10px; 
+    margin:0 auto;
+    width: 900px;
+    background-color: cornsilk;
+    /* opacity: 0.7; */
+    border: 2px solid #FFDAB9;
+    font-family: Verdana, sans-serif;
+}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.foto{
+    width: 200px;
+    margin:0 auto;
+}
+.text{
+    padding: 10px; 
+    width: 900px;
+    margin:0 auto;
+    /* opacity: 0.7; */
+    background-color: cornsilk;
+    text-align: center;
+    border: 2px solid #FFDAB9;
+    
+}
+.foto_text_r{
+    width: 200px;
+    margin:0 auto;
+    height: 200px; 
+     float: right; 
+    padding-left: 5px ;
+    padding-bottom: 5px ;
+}
+.foto_contact{
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    float: right; 
+    padding-left: 5px ;
+    padding-bottom: 5px ;
+}
+.info{
+    padding: 10px;
+    margin:0 auto;
+    width: 900px;
+    height: 100px;
+    border: 2px solid #FFDAB9;
+    /* opacity: 0.7; */
+    background-color: cornsilk;
+    border-radius: 0 0 20px 20px;
+}
+.img_logotip{
+
+    opacity: 0.7;
+    background-color: cornsilk;
+    display:inline-block;
+}
+.list{
+    opacity: 0.7;
+    background-color: cornsilk;
+    display:inline-block;
+ } 
+.Show{       
+    padding: 10px; 
+    width: 900px;
+    margin:0 auto;
+    /* opacity: 0.7; */
+    background-color: cornsilk;
+    text-align: center;
+    border: 2px solid #FFDAB9;        
+}
+ul{
+  list-style: inside;
+    font-size: 14px;
+}
+
+h{
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+}
+p{
+   font-family: time;
+    font-size: 14px; 
+    font-style: italic;
+    line-height: 1.4em;
+    opacity: 10;
+}
+
+      /* Кнопки next & previous*/
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Измените положение "next button" */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* Добавьте черный фоновый цвет с небольшой прозрачностью*/
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+      /* Подпись под изображением */
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+      color: #ffffff;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      }
+      /* Точки/маркеры/указатели */
+      .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+      .active, .dot:hover {
+      background-color: #111111;
+      }
+      /* Выцветание анимации */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* Для маленьких экранов увеличьте размер текста */
+      @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+
+      /* Кнопки next & previous*/
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Измените положение "next button" */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* Добавьте черный фоновый цвет с небольшой прозрачностью*/
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+
+
+      /* Точки/маркеры/указатели */
+      .dotY {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+      .active, .dotY:hover {
+      background-color: #111111;
+      }
